@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Noto+Sans');
+
+html {
+	background: green;
+	color: brown;
+	height: 100%;
+	background-image: url('data:image/svg+xml,%3Csvg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z" fill="%239C92AC" fill-opacity="0.8" fill-rule="evenodd"/%3E%3C/svg%3E');
+}
+
+body {
+	margin: 20px;
+	padding: 0px;
+	height: calc(100% - 40px);
+	
+}
+
+h1 {
+	font-family: "Open Sans";
+	margin: 20px 0px 20px;
+	padding: 0px;
+	color: tan;
+	font-size: 3em;
+	font-weight: normal;
+	text-align: center;
+}
+
+p {
+	font-family: "Open Sans";
+	font-size: 1.8em;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.5;
+	text-align: center;
+	/text-shadow: -1px -1px 0px maroon;
+}
+
+#container {
+	margin: 0px;
+	padding: 20px;
+	height: calc(100% - 0px);
+	background: black;
+	box-sizing: border-box;
+}
+
+#left-side {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	height: calc(100% - 0px);
+	/background: #777;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+#right-side {
+	float: right;
+	margin: 0px 0px 0px 20px;
+	padding: 0px 30px 30px;
+	width: calc(50% - 20px);
+	height: calc(100% - 0px);
+	/background: #222;
+	box-sizing: border-box;
+	overflow-y: auto;
+	border: 1px solid;
+}
+
+#citations {
+	position: absolute;
+	background: black;
+	bottom: 40px;
+	/overflow-y: auto;
+}
+
+#citations p {
+	margin-top: 20px;
+	font-size: 1.2em;
+	text-align: left;
+	line-height: 1;
+}
+
+#map {
+	margin: 0px;
+	padding: 0px;
+	max-height: 100%;
+	max-width: 100%;
+	border: 10px outset brown;
+	box-sizing: border-box;
+}
+
+#flag {
+	width: 60%;
+	display: block;
+	margin: 60px auto;
+}
